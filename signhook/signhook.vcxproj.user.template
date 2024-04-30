@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommand>$(WindowsSdkDir)bin\$(TargetPlatformVersion)\$(PlatformShortName)\signtool.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>sign /v /debug /tr http://timestamp.acs.microsoft.com /td sha256 /fd sha512 /dlib "$(OutDir)\signhook.dll" /dmdf "$(ProjectDir)setting.json" "$(ProjectDir)*.exe" </LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>sign /v /debug /tr http://timestamp.acs.microsoft.com /td sha256 /fd sha512 /dlib "$(OutDir)\signhook.dll" /dmdf "$(ProjectDir)setting.json" "$(ProjectDir)*.exe" </LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>$(WindowsSdkDir)bin\$(TargetPlatformVersion)\$(PlatformShortName)\signtool.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>sign /v /debug /tr http://timestamp.acs.microsoft.com /td sha256 /fd sha512 /dlib "$(OutDir)\signhook.dll" /dmdf "$(ProjectDir)setting.json" "$(ProjectDir)*.exe" </LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>$(WindowsSdkDir)bin\$(TargetPlatformVersion)\$(PlatformShortName)\signtool.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>sign /v /debug /tr http://timestamp.acs.microsoft.com /td sha256 /fd sha512 /dlib "$(OutDir)\signhook.dll" /dmdf "$(ProjectDir)setting.json" "$(ProjectDir)*.exe" </LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>$(WindowsSdkDir)bin\$(TargetPlatformVersion)\$(PlatformShortName)\signtool.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+</Project>

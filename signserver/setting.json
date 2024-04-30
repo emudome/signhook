@@ -1,0 +1,14 @@
+{
+  "-------- SIGNER_SELECT(cert_store, token) ---------": "",
+  "sign_mode": "cert_store",
+
+  "-------- SETTING_FOR_CERT_STORE_SIGNER ---------": "",
+  "cert_subject": "Your_Cert_Subject",
+
+  "-------- SETTING_FOR_TOKEN_SIGNER ---------": "",
+  "dll_path": "C:\\Windows\\System32\\eTPKCS11.dll",
+  "slot_number": 0,
+  "pin": "your_pin",
+  "key_label": "Your_Key_Label",
+  "cert_label": "Your_Cert_Label"
+}

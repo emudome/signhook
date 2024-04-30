@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "signhook", "signhook\signhook.vcxproj", "{8701408F-CE93-4068-93EB-756308DC8CD0}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "signserver", "signserver\signserver.pyproj", "{B475E2A8-5904-4832-A0C6-21A26E0FAC91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8701408F-CE93-4068-93EB-756308DC8CD0}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{8701408F-CE93-4068-93EB-756308DC8CD0}.Debug|Any CPU.Build.0 = Debug|x64
+		{8701408F-CE93-4068-93EB-756308DC8CD0}.Debug|x64.ActiveCfg = Debug|x64
+		{8701408F-CE93-4068-93EB-756308DC8CD0}.Debug|x64.Build.0 = Debug|x64
+		{8701408F-CE93-4068-93EB-756308DC8CD0}.Debug|x86.ActiveCfg = Debug|Win32
+		{8701408F-CE93-4068-93EB-756308DC8CD0}.Debug|x86.Build.0 = Debug|Win32
+		{8701408F-CE93-4068-93EB-756308DC8CD0}.Release|Any CPU.ActiveCfg = Release|x64
+		{8701408F-CE93-4068-93EB-756308DC8CD0}.Release|Any CPU.Build.0 = Release|x64
+		{8701408F-CE93-4068-93EB-756308DC8CD0}.Release|x64.ActiveCfg = Release|x64
+		{8701408F-CE93-4068-93EB-756308DC8CD0}.Release|x64.Build.0 = Release|x64
+		{8701408F-CE93-4068-93EB-756308DC8CD0}.Release|x86.ActiveCfg = Release|Win32
+		{8701408F-CE93-4068-93EB-756308DC8CD0}.Release|x86.Build.0 = Release|Win32
+		{B475E2A8-5904-4832-A0C6-21A26E0FAC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B475E2A8-5904-4832-A0C6-21A26E0FAC91}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B475E2A8-5904-4832-A0C6-21A26E0FAC91}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B475E2A8-5904-4832-A0C6-21A26E0FAC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B475E2A8-5904-4832-A0C6-21A26E0FAC91}.Release|x64.ActiveCfg = Release|Any CPU
+		{B475E2A8-5904-4832-A0C6-21A26E0FAC91}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E4050A7-BA4D-4E80-93F4-E08F88CDDAC9}
+	EndGlobalSection
+EndGlobal
